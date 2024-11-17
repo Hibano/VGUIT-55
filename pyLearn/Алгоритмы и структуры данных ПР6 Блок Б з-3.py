@@ -1,6 +1,6 @@
 def odd_print():
     def helper(index = 1):
-        num = int(input())
+        num = int(input('Введите числа:'))
         if num == 0:
             return
         if index % 2 == 1:
